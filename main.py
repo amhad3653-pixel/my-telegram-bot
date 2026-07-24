@@ -3,7 +3,7 @@ from telegram import Update
 from telegram.ext import Application, CommandHandler, ContextTypes
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    await update.message.reply_text("мава привет 👋")
+    await update.message.reply_text("несирхаев анзор, мух ву хьо?")
 
 TOKEN = "8858025315:AAEGB7gbTP-wsNUcoUUiAoLZ92Rhp0bmRI8"
 
